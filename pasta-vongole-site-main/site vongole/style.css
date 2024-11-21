@@ -1,0 +1,51 @@
+body{
+background-color: rgb(228, 177, 112);
+}
+
+img {
+   
+    width: 500px;
+}
+
+h1{
+    color: rgb(92, 30, 30);
+}
+ 
+p{ text-align: center;
+    
+
+
+}
+
+.img-row{
+display: grid;
+grid-template-columns: repeat(4);
+gap:10px;
+
+}
+
+.image-row img {
+    width: 100px;
+    height: auto;
+}
+
+.afbeeldingen-container {
+    display: flex;             /* Flexbox inschakelen */
+    justify-content: center;   /* Afbeeldingen centreren */
+    gap: 15px;                 /* Ruimte tussen de afbeeldingen */
+}
+
+/* Stijl voor de afbeeldingen zelf */
+.afbeeldingen-container img {
+    width: 200px;              /* Stel een vaste breedte in voor de afbeeldingen */
+    height: auto;              /* De hoogte wordt proportioneel aangepast */
+}
+
+img {
+border-radius: 50%;
+
+}
+
+
+
+
